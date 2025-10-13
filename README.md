@@ -8,7 +8,7 @@ Este é um fork/custom do template **portfolio**. Ajustado para publicação em 
 3. Vá em *Settings → Pages* e selecione *Source: GitHub Actions*.
 4. O workflow `.github/workflows/deploy-pages.yml` fará o build (CRA/Vite) e publicará automaticamente.
 5. Para SPAs, use `HashRouter` ou defina `homepage` no `package.json` (já definido).
-
+    Teste
 ## Ajustes de branding já feitos
 - Metas e links apontando para `magoroot.github.io/site`.
 - Títulos: “Joás Pardim — Portfólio”.
