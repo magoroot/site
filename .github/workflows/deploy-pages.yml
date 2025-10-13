@@ -36,11 +36,15 @@ jobs:
         working-directory: ./portfolio
         run: CI='' npm run build
 
+      - name: SPA 404 fallback
+        working-directory: ./portfolio
+        run: cp build/index.html build/404.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # CRA: build | Vite: dist
-          path: ./portfolio/public
+          path: ./portfolio/build
 
   deploy:
     needs: build
