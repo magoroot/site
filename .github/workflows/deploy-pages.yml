@@ -27,18 +27,20 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        working-directory: portfolio/
+        working-directory: ./portfolio
         run: |
-          if [ -f package-lock.json ]; then npm ci; else npm i; fi
+          if [ -f package-lock.json ]; then npm install --package-lock-only; fi
+          npm ci || npm install --legacy-peer-deps
 
       - name: Build
-        working-directory: portfolio/
+        working-directory: ./portfolio
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: portifolio/build   # Se for Vite, troque para dist
+          # CRA: build | Vite: dist
+          path: portfolio/build
 
   deploy:
     needs: build
