@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # CRA: build | Vite: dist
-          path: portfolio/build
+          path: ./portfolio/public
 
   deploy:
     needs: build
