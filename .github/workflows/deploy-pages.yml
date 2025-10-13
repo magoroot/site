@@ -28,10 +28,12 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
+        working-directory: ./portfolio/package.json
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm i; fi
 
       - name: Build
+        working-directory: ./portfolio/package.json  
         run: |
           if [ -f package.json ]; then npm run build; else echo "No package.json found; skipping build"; fi
 
