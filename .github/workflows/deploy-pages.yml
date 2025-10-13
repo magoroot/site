@@ -25,15 +25,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache-dependency-path: portifolio/package-lock.json
 
       - name: Install dependencies
-        working-directory: portifolio/
+        working-directory: portfolio/
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm i; fi
 
       - name: Build
-        working-directory: portifolio/
+        working-directory: portfolio/
         run: npm run build
 
       - name: Upload Pages artifact
