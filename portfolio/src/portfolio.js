@@ -11,63 +11,63 @@ const greeting = {
   logo_name: "Joás Pardim",
   nickname: null,
   subTitle:
-    "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
+    "Arquiteto de Soluções | Cloud & DevOps — do código à nuvem, com propósito.",
   resumeLink:
     "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Joás5541",
+  portfolio_repository: "https://github.com/magoroot",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Joás5541",
+    link: "https://github.com/magoroot",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.linkedin.com/in/joaspardim/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
     link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
+      "https://www.youtube.com/@magoroot-ti",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=pardal1484@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
+/*{
     name: "Facebook",
     link: "https://www.facebook.com/tasinmiftaulmannan",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
+ }*/ ,
+ /* {
     name: "Instagram",
     link: "https://www.instagram.com/mm_tasin/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  }*/,
 ];
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Arquiteto de Soluções",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website using NextJs and React",
-        "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
-        "⚡ Implementing dynamic script execution defined by user",
+        "⚡ Migração On presmises to Cloud ",
+        "⚡ Mordenização de Ambiente",
+        "⚡ Práticas DevOps",
+        "⚡ Comunicação C-level",
       ],
       softwareSkills: [
         {
